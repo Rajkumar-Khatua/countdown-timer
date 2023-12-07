@@ -9,13 +9,16 @@ A simple and customizable countdown timer app built with React and styled using 
 - Edit the countdown time during runtime.
 - Attractive styling using SCSS and Material-UI icons.
 
+## Live Demo
+
+Visit the [Countdown Timer App](https://countdown-timer-sandy-iota.vercel.app/) live demo.
 
 ## Installation
 
 1. Clone the repository:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/Rajkumar-Khatua/countdown-timer.git
 cd countdown-timer
 ```
 
@@ -30,6 +33,8 @@ npm install
 ```bash
 npm start
 ```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Usage
 
