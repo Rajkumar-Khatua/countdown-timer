@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Countdown Timer App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and customizable countdown timer app built with React and styled using SCSS. The app allows users to set a countdown time, start, stop, reset, and edit the countdown duration.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Set countdown time in minutes and seconds.
+- Start, stop, and reset the countdown.
+- Edit the countdown time during runtime.
+- Attractive styling using SCSS and Material-UI icons.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+```bash
+git clone <repository_url>
+cd countdown-timer
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install the dependencies:
 
-### `npm run build`
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+### Setting the countdown time
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Click on the **Edit** button to set the countdown time.
+- Enter the countdown time in minutes and seconds.
+- Click on the **Set** button to set the countdown time.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Starting the countdown
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Click on the **Start** button to start the countdown.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Stopping the countdown
 
-## Learn More
+- Click on the **Stop** button to stop the countdown.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Resetting the countdown
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Click on the **Reset** button to reset the countdown.
 
-### Code Splitting
+### Editing the countdown time
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Click on the **Edit** button to edit the countdown time.
+- Enter the countdown time in minutes and seconds.
+- Click on the **Set** button to set the countdown time.
 
-### Analyzing the Bundle Size
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React
+- SCSS
+- Material-UI icons
 
-### Making a Progressive Web App
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [React](https://reactjs.org/)
+- [Material-UI](https://material-ui.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Scss](https://sass-lang.com/)
